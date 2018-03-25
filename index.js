@@ -6,5 +6,11 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-
-destructivelyPrependKitten(name)
+var kittens = ["Milo", "Otis", "Garfield"];
+function destructivelyPrependKitten(name) {
+   kittens.unshift(name)
+   return kittens;
+ }
+ 
+ 
+ 
