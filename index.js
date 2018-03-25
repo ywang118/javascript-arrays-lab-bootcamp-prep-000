@@ -30,3 +30,6 @@ function appendKitten(name) {
   return kittens_new;
 }
 
+function prependKitten(name) {
+  kittens_new = kittens.slice(0, )
+}
